@@ -19090,6 +19090,7 @@ Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 
 Started GET "/assets/application-0ea275298440069356c9770dafd7cb77.js?body=1" for ::1 at 2015-03-17 21:20:05 -0400
 
 
+<<<<<<< HEAD
 Started GET "/" for ::1 at 2015-03-17 21:41:16 -0400
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (5.1ms)
@@ -19100,6 +19101,15 @@ Started GET "/assets/bootstrap-theme-4e2bd18984202fbbb41a32e3e66962bd.css?body=1
 
 
 Started GET "/stylesheets/bootstrap.css.map.css" for ::1 at 2015-03-17 21:41:20 -0400
+=======
+Started GET "/" for ::1 at 2015-03-17 21:24:24 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 101ms (Views: 100.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/bootstrap.css.map.css" for ::1 at 2015-03-17 21:24:24 -0400
+>>>>>>> f37ee33c9750942424637865fc77719e2883f679
 
 ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css.map.css"):
   actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
@@ -19123,6 +19133,7 @@ ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.c
   rack (1.6.0) lib/rack/lock.rb:17:in `call'
   rack (1.6.0) lib/rack/content_length.rb:15:in `call'
   rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+<<<<<<< HEAD
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
@@ -19147,6 +19158,29 @@ Started GET "/assets/bootstrap-theme.min-fd74513782ffae5f67f2ec9a383ef2fb.css?bo
 
 
 Started GET "/stylesheets/bootstrap-theme.css.map.css" for ::1 at 2015-03-17 21:41:20 -0400
+=======
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.5ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.9ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (29.7ms)
+
+
+Started GET "/stylesheets/bootstrap-theme.css.map.css" for ::1 at 2015-03-17 21:24:24 -0400
+>>>>>>> f37ee33c9750942424637865fc77719e2883f679
 
 ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap-theme.css.map.css"):
   actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
@@ -19170,6 +19204,7 @@ ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap-t
   rack (1.6.0) lib/rack/lock.rb:17:in `call'
   rack (1.6.0) lib/rack/content_length.rb:15:in `call'
   rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+<<<<<<< HEAD
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
@@ -19335,6 +19370,29 @@ ActionController::RoutingError (No route matches [GET] "/css/bootstrap-theme.min
 
 
 Started GET "/one.css" for ::1 at 2015-03-17 21:41:21 -0400
+=======
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.5ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.4ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (29.1ms)
+
+
+Started GET "/one.css" for ::1 at 2015-03-17 21:24:24 -0400
+>>>>>>> f37ee33c9750942424637865fc77719e2883f679
 
 ActionController::RoutingError (No route matches [GET] "/one.css"):
   actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
@@ -19358,6 +19416,7 @@ ActionController::RoutingError (No route matches [GET] "/one.css"):
   rack (1.6.0) lib/rack/lock.rb:17:in `call'
   rack (1.6.0) lib/rack/content_length.rb:15:in `call'
   rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+<<<<<<< HEAD
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
@@ -19547,6 +19606,29 @@ Started GET "/assets/application-eaa99f4fb49d83304ac168134ca24466.css?body=1" fo
 
 
 Started GET "/css/bootstrap.min.css" for ::1 at 2015-03-18 14:40:00 -0400
+=======
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (25.1ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (43.1ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.7ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.8ms)
+
+
+Started GET "/css/bootstrap.min.css" for ::1 at 2015-03-17 21:24:24 -0400
+>>>>>>> f37ee33c9750942424637865fc77719e2883f679
 
 ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
   actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
@@ -19570,6 +19652,7 @@ ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css")
   rack (1.6.0) lib/rack/lock.rb:17:in `call'
   rack (1.6.0) lib/rack/content_length.rb:15:in `call'
   rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+<<<<<<< HEAD
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
@@ -19635,6 +19718,29 @@ ActionController::RoutingError (No route matches [GET] "/css/bootstrap-theme.min
 
 
 Started GET "/css/bootstrap.css" for ::1 at 2015-03-18 14:40:00 -0400
+=======
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.6ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.9ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (31.9ms)
+
+
+Started GET "/css/bootstrap.css" for ::1 at 2015-03-17 21:24:24 -0400
+>>>>>>> f37ee33c9750942424637865fc77719e2883f679
 
 ActionController::RoutingError (No route matches [GET] "/css/bootstrap.css"):
   actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
@@ -19658,6 +19764,7 @@ ActionController::RoutingError (No route matches [GET] "/css/bootstrap.css"):
   rack (1.6.0) lib/rack/lock.rb:17:in `call'
   rack (1.6.0) lib/rack/content_length.rb:15:in `call'
   rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+<<<<<<< HEAD
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
@@ -19681,6 +19788,31 @@ ActionController::RoutingError (No route matches [GET] "/css/bootstrap.css"):
 Started GET "/one.css" for ::1 at 2015-03-18 14:40:00 -0400
 
 ActionController::RoutingError (No route matches [GET] "/one.css"):
+=======
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.8ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.0ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.9ms)
+
+
+Started GET "/css/bootstrap-theme.min.css" for ::1 at 2015-03-17 21:24:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap-theme.min.css"):
+>>>>>>> f37ee33c9750942424637865fc77719e2883f679
   actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
   web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
   actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
@@ -19702,6 +19834,7 @@ ActionController::RoutingError (No route matches [GET] "/one.css"):
   rack (1.6.0) lib/rack/lock.rb:17:in `call'
   rack (1.6.0) lib/rack/content_length.rb:15:in `call'
   rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+<<<<<<< HEAD
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
@@ -19744,6 +19877,47 @@ Started GET "/assets/application-0ea275298440069356c9770dafd7cb77.js?body=1" for
 
 
 Started GET "/js/bootstrap.min.js" for ::1 at 2015-03-18 14:40:00 -0400
+=======
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.7ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.9ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.7ms)
+
+
+Started GET "/assets/bootstrap-theme-4e2bd18984202fbbb41a32e3e66962bd.css?body=1" for ::1 at 2015-03-17 21:24:24 -0400
+
+
+Started GET "/assets/bootstrap-theme.min-fd74513782ffae5f67f2ec9a383ef2fb.css?body=1" for ::1 at 2015-03-17 21:24:24 -0400
+
+
+Started GET "/assets/bootstrap-a257fd1e28bcb7ce9c6c22a49584eefc.css?body=1" for ::1 at 2015-03-17 21:24:24 -0400
+
+
+Started GET "/assets/bootstrap.min-da577b6df364e1cb6ed99e25ddf02ae7.css?body=1" for ::1 at 2015-03-17 21:24:24 -0400
+
+
+Started GET "/assets/one-e58de0df8e701f28316f743e975c32c2.css?body=1" for ::1 at 2015-03-17 21:24:24 -0400
+
+
+Started GET "/assets/application-eaa99f4fb49d83304ac168134ca24466.css?body=1" for ::1 at 2015-03-17 21:24:24 -0400
+
+
+Started GET "/js/bootstrap.min.js" for ::1 at 2015-03-17 21:24:24 -0400
+>>>>>>> f37ee33c9750942424637865fc77719e2883f679
 
 ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
   actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
@@ -19767,6 +19941,7 @@ ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
   rack (1.6.0) lib/rack/lock.rb:17:in `call'
   rack (1.6.0) lib/rack/content_length.rb:15:in `call'
   rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+<<<<<<< HEAD
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
   /Users/AndresValencia/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
@@ -20818,3 +20993,44 @@ ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap-t
 
 
 Started GET "/assets/bootstrap-theme.css.map" for ::1 at 2015-03-18 14:40:40 -0400
+=======
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.7ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.8ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.8ms)
+
+
+Started GET "/assets/bootstrap-ee622b0f3ce5ab15ce1858ffeae4e11e.js?body=1" for ::1 at 2015-03-17 21:24:24 -0400
+
+
+Started GET "/assets/bootstrap.min-53cbfb980bb1576fb1031b08405b10a1.js?body=1" for ::1 at 2015-03-17 21:24:24 -0400
+
+
+Started GET "/assets/npm-cf403c5b64dd9b6845dc71b854213aa9.js?body=1" for ::1 at 2015-03-17 21:24:24 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-17 21:24:24 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-17 21:24:24 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-17 21:24:24 -0400
+
+
+Started GET "/assets/application-0ea275298440069356c9770dafd7cb77.js?body=1" for ::1 at 2015-03-17 21:24:24 -0400
+>>>>>>> f37ee33c9750942424637865fc77719e2883f679
