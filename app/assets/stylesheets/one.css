@@ -7,6 +7,24 @@
 .panel {
   margin-left: auto;
   margin-right: auto;
+  padding: 5px 10px 5px 10px;
+}
+
+#form {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  display:inline-block;
+}
+
+#field {
+  width: 300px;
+  margin: 5px;
+  text-align: center;
+}
+
+button {
+  margin: 5px;
 }
 
 .videowrapper {

@@ -1,4 +1,4 @@
-# GA-ninja-sloth-mar-2015
+# PROJECT NAME
 project for hackathon
 
 ### Contributers:
