@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  *= require bootstrap-theme.css
- *= require bootstrap-theme.css
+ *= require bootstrap-theme.css.map
  *= require bootstrap-theme.min.css
  *= require bootstrap.css
  *= require bootstrap.css.map
