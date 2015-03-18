@@ -48,14 +48,17 @@
     <div class="container">
       <div class="panel panel-default">
         <div class="panel-body">
-          <form method="" action="" id="search">
-            <label>Search:
-              <input type="text" name="search_term" placeholder="what are you searching for?" required>
-            </label>
+          <div id="form">
+          <form method="" action="">
+            <label>Search:</label>
+              <input type="text" name="search_term" placeholder="what are you searching for?" id="field" required>
+              &nbsp;
 
-            <label>Safe search?
+            <label>Safe search?</label>
+            &nbsp;
               <input type="checkbox" name="safe_search">
-            </label> <div class="row">
+              &nbsp;
+              &nbsp;
               <button class="btn waves-effect waves-light" type="submit" name="action">Submit
                 <i class="mdi-content-send right"></i>
               </button>
