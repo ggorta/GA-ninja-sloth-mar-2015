@@ -3,9 +3,8 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'sessions#new'
 
-  resources :search
+
 
 
 
@@ -16,6 +15,7 @@ get "sign_up" => "users#new", :as => "sign_up"
 root :to => "users#new"
 resources :users
 resources :sessions
+resources :search
 
 
   # Example of regular route:
