@@ -62,3 +62,102 @@ Gem::LoadError (Specified 'sqlite3' for database adapter, but the gem is not loa
   Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
   Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
   Rendered /Users/gengo/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (44.3ms)
+
+
+Started GET "/" for ::1 at 2015-03-19 14:02:27 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 180ms (Views: 164.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap-f8f2770940069ba9ef81b13cc1948ad0.css?body=1" for ::1 at 2015-03-19 14:02:28 -0400
+
+
+Started GET "/assets/bootstrap-ee622b0f3ce5ab15ce1858ffeae4e11e.js?body=1" for ::1 at 2015-03-19 14:02:28 -0400
+
+
+Started GET "/assets/application-f3a6190ae702debe35a513bca8b5c64f.css?body=1" for ::1 at 2015-03-19 14:02:28 -0400
+
+
+Started GET "/assets/bootstrap-theme-d9b397ff23e46432e05bee0c6cf550a6.css?body=1" for ::1 at 2015-03-19 14:02:28 -0400
+
+
+Started GET "/assets/one-e58de0df8e701f28316f743e975c32c2.css?body=1" for ::1 at 2015-03-19 14:02:28 -0400
+
+
+Started GET "/assets/bootstrap.min-53cbfb980bb1576fb1031b08405b10a1.js?body=1" for ::1 at 2015-03-19 14:02:28 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-19 14:02:28 -0400
+
+
+Started GET "/assets/npm-cf403c5b64dd9b6845dc71b854213aa9.js?body=1" for ::1 at 2015-03-19 14:02:28 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-19 14:02:28 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-19 14:02:28 -0400
+
+
+Started GET "/assets/application-0ea275298440069356c9770dafd7cb77.js?body=1" for ::1 at 2015-03-19 14:02:28 -0400
+
+
+Started GET "/sign_up" for ::1 at 2015-03-19 14:02:36 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 63ms (Views: 62.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/log_in" for ::1 at 2015-03-19 14:02:38 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 59ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/log_in" for ::1 at 2015-03-19 14:02:43 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 67ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme-d9b397ff23e46432e05bee0c6cf550a6.css?body=1" for ::1 at 2015-03-19 14:02:43 -0400
+
+
+Started GET "/assets/one-e58de0df8e701f28316f743e975c32c2.css?body=1" for ::1 at 2015-03-19 14:02:43 -0400
+
+
+Started GET "/assets/bootstrap.min-53cbfb980bb1576fb1031b08405b10a1.js?body=1" for ::1 at 2015-03-19 14:02:43 -0400
+
+
+Started GET "/assets/bootstrap-f8f2770940069ba9ef81b13cc1948ad0.css?body=1" for ::1 at 2015-03-19 14:02:43 -0400
+
+
+Started GET "/assets/bootstrap-ee622b0f3ce5ab15ce1858ffeae4e11e.js?body=1" for ::1 at 2015-03-19 14:02:43 -0400
+
+
+Started GET "/assets/application-f3a6190ae702debe35a513bca8b5c64f.css?body=1" for ::1 at 2015-03-19 14:02:43 -0400
+
+
+Started GET "/assets/npm-cf403c5b64dd9b6845dc71b854213aa9.js?body=1" for ::1 at 2015-03-19 14:02:43 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-19 14:02:43 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-19 14:02:43 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-19 14:02:43 -0400
+
+
+Started GET "/assets/application-0ea275298440069356c9770dafd7cb77.js?body=1" for ::1 at 2015-03-19 14:02:43 -0400
+
+
+Started POST "/sessions" for ::1 at 2015-03-19 14:04:34 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2JmDTJxTqbWEkARbnobTruAY6L0d8zh9SO1OkUv3ThLpM9yM9so0oX+nV3VmGtKS+9AoLfTHmn5Gl8tm7+G6qA==", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", ""]]
+Redirected to http://localhost:3000search
+Completed 302 Found in 12ms (ActiveRecord: 0.7ms)
