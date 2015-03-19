@@ -6,7 +6,7 @@ end
   def create
     $message= nil
   user = User.authenticate(params[:email], params[:password])
-  if user $$ user.authenticate(params[:email])
+  if user
     session[:user_id] = user.id
     redirect_to root_url, :notice => "Logged in!"
   else
