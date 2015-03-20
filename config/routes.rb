@@ -18,6 +18,9 @@ resources :sessions
 resources :search
 
 
+
+
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

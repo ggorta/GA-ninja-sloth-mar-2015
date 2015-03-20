@@ -11,7 +11,7 @@ end
     redirect_to root_url, :notice => "Logged in!"
   else
     $message= "Invalid email or password"
-    redirect_to 'search'
+    redirect_to 'new'
   end
 end
 
